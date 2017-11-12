@@ -1,5 +1,5 @@
  var censoredWords = ["sad", "bad", "mad"];
- var customCensoredWords = [];
+ var customCensoredWords = ["fuck off", "fuck", "shit", "fucker", "bull shit", "ass hole"];
  function censor(inStr) {
    for (idx in censoredWords) {
      inStr = inStr.replace(censoredWords[idx], "****");
